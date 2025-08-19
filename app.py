@@ -39,6 +39,7 @@ def home():
 
 
 
+
 @app.route("/add", methods=["GET", "POST"])
 def add_contact():
     if request.method == "POST":
